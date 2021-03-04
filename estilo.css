@@ -1,0 +1,24 @@
+.root{
+	-fx-background-color: lightblue;
+	-fx-font-family: "Calibri";
+	-fx-font-size: 9pt;
+}
+.button, .radio-button, .check-box,{
+	-fx-font-style: oblique;
+	-fx-text-fill: black;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
+.list-cell:even {
+    -fx-background-color: lightgray;
+}
+.list-cell:filled:hover {
+    -fx-background-color: #05FAFA;
+    -fx-text-fill: black;
+}
+.tooltip{
+	-fx-background-color:lightgreen;
+	-fx-text-fill:black;
+}
